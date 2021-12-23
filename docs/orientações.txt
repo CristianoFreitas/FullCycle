@@ -1,0 +1,10 @@
+
+ ps (Listar images rodando)
+-i  (modo iterativo)
+-t tty (pode executar comandos)
+--it 
+
+--rm   (remove automáticamente o container)
+-d     (detached) Roda o container com o terminal detached
+--name (define nome do container)
+exec   (executa comando dentor do container)
