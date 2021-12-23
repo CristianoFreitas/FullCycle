@@ -8,3 +8,8 @@
 -d     (detached) Roda o container com o terminal detached
 --name (define nome do container)
 exec   (executa comando dentor do container)
+
+--mount type=bind,source"(pwd)",target=/app/local_containter
+--mount type=volume,source"(pwd)",target=/app/local_containter
+
+volume prume (Limpa volumes não utilizados)
