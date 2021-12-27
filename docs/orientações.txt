@@ -13,3 +13,7 @@ exec   (executa comando dentor do container)
 --mount type=volume,source"(pwd)",target=/app/local_containter
 
 volume prume (Limpa volumes não utilizados)
+
+docker ps -a -q  (lista ids container incluisve inativos "-a")
+docker rm $(docker ps -a -q) -f (dica para remover todos os container)
+
